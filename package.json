@@ -1,0 +1,27 @@
+{
+  "name": "urlshortner",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/HARSHITJOSHI1102/UrlShortner#readme",
+  "bugs": {
+    "url": "https://github.com/HARSHITJOSHI1102/UrlShortner/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HARSHITJOSHI1102/UrlShortner.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.13.0",
+    "nanoid": "^3.3.11",
+    "nodemon": "^3.1.9",
+    "shortid": "^2.2.17"
+  }
+}
